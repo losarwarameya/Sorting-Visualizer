@@ -7,7 +7,26 @@ html,body{
     height: 100%;
     width: 100%;
 }
-main{
-    height: 70vh;
-    width: 70vw;
+#bubble-container, #merge-container{
+    margin: 50px 50px;
+}
+.bar {
+    width: 20px;
+    /* height: 200px; */
+    /* background-color: blue; */
+    display: inline-block;
+    margin-right: 2px;
+}
+.bubble {
+    height: 200px;
+    background-color: blue;
+}
+.merge {
+    height: 200px;
+    background-color: green;
+}
+.buttons{
+    position: absolute;
+    top:50%;
+    left: 50%;
 }
